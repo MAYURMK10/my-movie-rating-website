@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta lang="utf-8">
+    <title>my fav movies list</title>
+    <style>
+
+       @media (max-width: 600px) {
+  .base {
+    height: 70%;
+    width: 70%;
+  }
+
+  .lowerlevel1 {
+    width: auto;
+    height: auto;
+  }
+
+  .lowerlevel2 {
+    height: auto;   /* let it expand naturally */
+    width: auto;    /* take full width on mobile */
+  }
+
+  .lowerlevel2 img {
+    max-width: 100%; /* image never overflows parent */
+    height: auto;    /* keep aspect ratio */
+    border-radius: 8px;
+  }
+
+  .lowerlevel2 p {
+    font-size: smaller;
+  }
+}
+
+
+        .base{
+            background-color: cyan;
+            height: auto;
+            width: auto;
+            border-radius: 20px;
+            margin: 10px;
+            padding: 10px;
+            border: 5px solid;
+            
+
+        }
+
+        .lowerlevel1{
+            
+            text-align: center;
+            border-radius: 20px;
+            color: yellow;
+            background-color: brown;
+            margin: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding: 10px solid black;
+            border: 10px solid black;
+        }
+        .lowerlevel2{
+            h2{
+                margin-left: 5px;
+            }
+            color: yellow;
+            border-radius: 20px;
+            background-color: brown;
+            margin: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding: 10px solid black;
+            border: 10px solid black;
+        }
+
+        .lowerlevel2 img {
+            width: 150px;
+            margin: 5px;
+            border-radius: 10px;
+            border: 3px solid yellow;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* shadow */
+            transition: transform 0.3s ease;
+        }
+
+        .lowerlevel2 p{
+            background-color: darkred;
+            margin: 30px;
+        }
+
+        .lowerlevel2 img:hover {
+            transform: scale(1.05);
+            filter: brightness(110%);
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="base">
+        <div class="lowerlevel1">
+            <h1>The Best Movies According To Mayur</h1>
+            
+        </div>
+
+<hr/>
+
+        <div class="lowerlevel2 image">
+            <h2>My top 3 movies of all time.</h2>
+            <ol>
+                <li><h3>spirited away</h3></li>
+                <img src="spirited away.webp" alt="a thumbnail that has a girl looking at the screen from inside">
+                <p>
+                    my fav anime
+                    <h5>
+                        <p>IMDB: 8.6/10</p>
+                        <P>During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, and where humans are changed into beasts. Reviewers say 'Spirited Away' is acclaimed for its imaginative world, stunning animation, and evocative music.</P>
+                    </h5> 
+                </p>
+
+                <li><h3>Ex machina</h3></li>
+                <img src="exmechina.webp" alt="two male an a robo female looking at the screen from the inside">
+                <p>
+                    really cool sci-fi movie
+                    <h5>
+                        <p>IMDB: 7.7/10</p>
+                        <P>Caleb, a 26 year old programmer at the world's largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experiment in which he must interact with the world's first true artificial intelligence, housed in the body of a beautiful robot girl.</P>
+                    </h5> 
+                </p>
+
+                <li><h3>drive</h3></li>
+                <img src="drive.webp" alt="a man with holding a gun walking down the road past his car">
+                <p>super beautiful film .really artistic
+                    <h5>
+                        <p>IMDB: 7.8/10</p>
+                        <P>Drive is a 2011 American action drama film directed by Nicolas Winding Refn. The screenplay, written by Hossein Amini, is based on James Sallis 's 2005 novel. The film stars Ryan Gosling as an unnamed Hollywood stunt driver who moonlights as a getaway driver.</P>
+                    </h5> 
+                </p>
+            </ol>
+        </div>        
+    </div>
+
+</body>
+</html>
